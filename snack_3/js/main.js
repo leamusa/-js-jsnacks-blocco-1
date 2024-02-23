@@ -1,0 +1,1 @@
+int [] numeroGiorniPerMese = {Marco, Lucia, Alessia, Giacomo, Giulia,};
