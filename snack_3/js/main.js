@@ -1,14 +1,9 @@
-// Dichiarazione di una funzione di primo livello (non usata nel codice successivo)
-function luckyNumber() {
-  return 7; // Esempio di numero fortunato
-}
+const numbers = []; // Array per memorizzare i numeri inseriti
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; // Array per memorizzare i numeri inseriti
-
-// Utilizzo di un ciclo for
+// Utilizzo di un ciclo for per chiedere all'utente di inserire un numero per 10 volte
 for (let i = 0; i < 10; i++) {
-  const numero = luckyNumber();
-  console.log(numero);
+  const numero = parseFloat(prompt("Inserisci un numero: "));
+  numbers.push(numero);
 }
 
 // Calcolo della somma utilizzando il ciclo for
@@ -19,7 +14,7 @@ for (let i = 0; i < numbers.length; i++) {
 
 console.log(`La somma utilizzando il ciclo for è: ${sum_for}`);
 
-// Utilizzo di un ciclo while
+// Calcolo della somma utilizzando il ciclo while
 let sum_while = 0;
 let j = 0;
 
