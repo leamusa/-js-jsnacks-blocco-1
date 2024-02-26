@@ -3,7 +3,7 @@ const numbers = []; // Array per memorizzare i numeri inseriti
 // Utilizzo di un ciclo for per chiedere all'utente di inserire un numero per 10 volte
 //for (let i = 0; i < 10; i++) {
 //const numero = parseInt(prompt("Inserisci un numero: "), 10);
-//numbers.push(numero);
+//console.log(numero);
 //}
 
 // Calcolo della somma utilizzando il ciclo for
