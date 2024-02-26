@@ -1,4 +1,4 @@
-console.log('ok');
+console.log("ok");
 
 let sum = 0;
 /* for (let i= 0; i++);
@@ -9,12 +9,12 @@ sum = cute
 alert('la somma di tutti i numeri è: ' +somma);
 */
 
-let i = 0
+let i = 0;
 while (i < 10) {
-    let number = prompt('insert a number');
-    let cuteNumber = parseFloat(number);
-    sum += cuteNumber;
+  let number = prompt("insert a number");
+  let cuteNumber = parseFloat(number);
+  sum += cuteNumber;
 
-    i++
+  i++;
 }
-alert(sum of all numbers is: +sum);
+alert("sum of all numbers is:" + sum);
